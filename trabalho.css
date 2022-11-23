@@ -3,6 +3,7 @@ body{
     min-height: 100%;
     font-size: 24px;
     text-align: center;
+
 }
 
 h2{
@@ -41,4 +42,8 @@ html {
 footer{
     background-image: url(vermelhao.jpg);
 }
-        
+
+main{
+    width: 75%;
+    margin:auto;
+}
