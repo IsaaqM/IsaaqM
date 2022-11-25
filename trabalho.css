@@ -6,10 +6,17 @@ body{
 
 }
 
-h2{
+h1{
     font-size: 60px;
     text-align: center;
     margin-top: 10px;
+}
+
+h2{
+    text-align: center; 
+   width: 200px;
+   font-size: 40px;
+   margin: 1px;
 }
 
 h3{
@@ -17,12 +24,30 @@ h3{
    width: 200px;
    font-size: 40px;
    margin: 1px;
+
 }
 
 header{
     background-color:darkred;
     font-size: 30px;
     text-align: start;
+}
+
+nav {
+    font-size: 30px;
+}
+
+nav li{
+    display:inline;
+    margin: 0 20 0 10;
+}
+a{
+    color:white ;
+    text-decoration: none;
+    text-align: center;
+}
+a:hover{
+    text-decoration: underline;
 }
 
 html {
@@ -39,11 +64,24 @@ html {
     
 }
 
-footer{
-    background-image: url(vermelhao.jpg);
-}
+
+
 
 main{
     width: 75%;
     margin:auto;
+}
+
+
+.OIP{
+    width: 300px;
+    border: solid black ;
+    margin-left: 5%;
+    border-width: 20px;
+}
+
+footer{
+    background-color:darkred;
+    font-size: 10px;
+    text-align: start;
 }
